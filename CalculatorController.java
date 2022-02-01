@@ -16,6 +16,7 @@ public class CalculatorController {
         this.calculatorService = calculatorService;
     }
 
+
     @GetMapping()
     public String answerHello() {
         return "Добро пожаловать в калькулятор";
